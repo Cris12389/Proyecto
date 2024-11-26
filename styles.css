@@ -1,0 +1,119 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo suave */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: #1e3a8a; /* Azul rey */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Botones del menú */
+nav {
+    background: #1e40af; /* Azul rey oscuro */
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button-container button {
+    background-color: #2563eb; /* Azul medio */
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-container button:hover {
+    background-color: #1e3a8a; /* Azul rey */
+    transform: translateY(-3px);
+}
+
+/* Sección centrada antes de la introducción */
+.centered-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #e0f2fe; /* Azul claro suave */
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.centered-section h2 {
+    font-size: 2rem;
+    color: #1e3a8a; /* Azul rey */
+}
+
+.centered-section p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #333;
+}
+
+/* Secciones principales */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Imágenes */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Videos */
+.responsive-video {
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background: #1e40af; /* Azul rey oscuro */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+}
+

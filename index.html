@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORTFEST S.C.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EMPRESA ORGANIZADORA DE EVENTOS DEPORTIVOS <br> SPORTFEST S.C.</h1>
+    </header>
+    <nav>
+        <div class="button-container">
+            <button onclick="scrollToSection('intro')">Inicio</button>
+            <button onclick="scrollToSection('info')">Información</button>
+            <button onclick="scrollToSection('eventos')">Eventos</button>
+            <button onclick="scrollToSection('videos')">Videos</button>
+        </div>
+    </nav>
+    <main>
+        <!-- Nuevo texto centrado con imagen -->
+        <section id="intro-banner" class="centered-section">
+            <h2>¡Bienvenidos a SPORTFEST!</h2>
+            <p>
+                "SPORT FEST" es una empresa dedicada a la realización de eventos deportivos y recreativos de alta calidad , nuestra empresa realiza eventos donde 
+                se muestre el deporte de una manera más creativa incentivando a los jóvenes a su aprovechamiento.
+            </p>
+            <img src="imagenes/img 2.jpeg" alt="Evento deportivo" class="responsive-image">
+        </section>
+
+        <section id="intro">
+            <h2>Introducción</h2>
+            <p>
+                En la actualidad, se observa un notable desinterés de los jóvenes por la práctica deportiva, 
+                lo cual representa un desafío significativo tanto para el desarrollo individual como para el bienestar social. 
+                Este fenómeno está influenciado por varios factores interrelacionados. Por un lado, la proliferación de la tecnología 
+                y el entretenimiento digital ha modificado las actividades de ocio, orientando a los jóvenes hacia un estilo de vida sedentario. 
+                Además, los cambios en los intereses de esta generación, sumados a la falta de modelos a seguir en el ámbito deportivo, 
+                han contribuido a una disminución en la motivación para realizar actividad física.
+            </p>
+        </section>
+        <section id="info">
+            <h2>Información</h2>
+            <p>
+                <strong>MISIÓN:</strong> La misión de “SPORTFEST” es incentivar el deporte y animar a los jóvenes con el propósito 
+                de brindar servicios excelentes y de la mejor calidad para todos los interesados en formar parte de esta familia.
+            </p>
+            <img src="imagenes/img 1.jpeg" alt="Descripción" width="500">
+            <p>
+                <strong>VISIÓN:</strong> Como empresa nos proyectamos en ser reconocidos por nuestros servicios de excelente calidad en el ámbito deportivo, 
+                donde las personas se sientan conformes y seguras al saber que serán instruidas de la mejor manera.
+            </p>
+        </section>
+        <section id="EVENTOS">
+            <h2>EVENTOS</h2>
+            <p>Estos son algunas evidencias de el primer prototipo que lanzo la empreza  EMPRESA ORGANIZADORA DE 
+                EVENTOS DEPORTIVOS que fue el torneo relampago que llevo por nombre "FAIR PLAY":</p>
+            <img src="imagenes/img 3.jpeg" alt="Ejemplo de imagen" class="responsive-image">
+            <img src="imagenes/img 4.jpeg" alt="Ejemplo de imagen" class="responsive-image">
+            <img src="imagenes/img 5.jpeg" alt="Ejemplo de imagen" class="responsive-image">
+            <img src="imagenes/img 6.jpeg" alt="Ejemplo de imagen" class="responsive-image">
+            
+        </section>
+        <section id="videos">
+            <h2>Videos</h2>
+            <video controls class="responsive-video">
+                <p>Añade videos que complementen la información.</p>
+                <source src="imagenes/vid 1.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SPORTFEST S.C. LUISA VALENTINA AGUILAR RIVAS.</p>
+    </footer>
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
